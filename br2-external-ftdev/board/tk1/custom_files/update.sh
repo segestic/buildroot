@@ -12,7 +12,7 @@ BOOT_PATH="/this/is/boot/dir/"
 
 ROOTFS_TAR_FILE="rootfs.tar"
 
-DEVICETREE_FILES="tegra124-apalis-eval.dtb tegra124-apalis-v1.2-eval.dtb"
+DEVICETREE_FILES="tegra124-apalis-eval.dtb"
 KERNEL_IMAGE="zImage"
 
 
