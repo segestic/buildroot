@@ -11,4 +11,4 @@ mv ${BINARIES_DIR}/tegra124-apalis-eval.dtb ${BINARIES_DIR}/tegra124-apalis-eval
 
 # Copy files to output folder
 cp ${BR2_EXTERNAL}/board/tk1/custom_files/update.sh ${BINARIES_DIR}/
-cp ${BR2_EXTERNAL}/board/tk1/custom_files/tegra124-apalis-eval-current.dtb ${BINARIES_DIR}/tegra124-apalis-eval.dtb
+cp ${BR2_EXTERNAL}/board/tk1/custom_files/tegra124-apalis-eval.dtb ${BINARIES_DIR}/tegra124-apalis-eval.dtb
