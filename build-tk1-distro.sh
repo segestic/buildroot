@@ -10,7 +10,7 @@ fi
 
 cp -r ./br2-external-ftdev/patches/br16.05/gcc/4.9.3/* ./package/gcc/4.9.3/
 BR2_EXTERNAL=./br2-external-ftdev make $FT_DEFCONFIG
-BR2_EXTERNAL=./br2-external-ftdev make -j8 2>&1 | tee build.log
+# BR2_EXTERNAL=./br2-external-ftdev make -j8 2>&1 | tee build.log
 
 
 echo -e "#######################DONE##############################################"
