@@ -3,7 +3,7 @@
 
 if [ -z "$FT_DEFCONFIG" ]
 then
-    FT_DEFCONFIG=ftdev_tk1_wifi_defconfig
+    FT_DEFCONFIG=dgdev_tk1_wifi_defconfig
     #FT_DEFCONFIG=ftdev_tk1_minimal_defconfig
 fi
 
