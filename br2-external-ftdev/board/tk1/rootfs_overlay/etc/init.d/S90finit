@@ -32,21 +32,3 @@ ip link set can1 up
 #Activate wlan0 at the boot
 rfkill unblock wifi
 ifconfig wlan0 up
-
-#Enable GUNSEL_TEAM wifi for the connection
-mkdir /var/lib/connman/wifi_0013eff3084c_47554e53454c5f5445414d_managed_psk
-touch /var/lib/connman/wifi_0013eff3084c_47554e53454c5f5445414d_managed_psk/settings
-echo "
-[wifi_0013eff3084c_47554e53454c5f5445414d_managed_psk]
-Name=GUNSEL_TEAM
-SSID=47554e53454c5f5445414d
-Frequency=2437
-Favorite=true
-AutoConnect=false
-Modified=2000-01-01T01:39:44.722061Z
-Passphrase=7v7na2aeq3wk
-IPv4.method=dhcp
-IPv4.DHCP.LastAddress=10.80.1.53
-IPv6.method=auto
-IPv6.privacy=disabled
-" > /var/lib/connman/wifi_0013eff3084c_47554e53454c5f5445414d_managed_psk/settings
